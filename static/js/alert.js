@@ -1,0 +1,1 @@
+alert('Desenvolvido para desktop! A navegação mobile não é recomendada')

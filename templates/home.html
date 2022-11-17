@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+	{% block conteudo %}
+	<main class="space">
+			<div class="box1">		
+				<div class="container">
+					<div id="content">
+						<h1 class="glow">Bem-vindo!</h1>
+						<h3>Sou Ana Moraes, administradora de Empresas e desenvolvedora FullStack, com 12 anos de experiência na área de Ciência e Tecnologia e Planejamento.</h3>
+						<h3>Atuo desde 2018 na formação de novos líderes de equipes corporativas e desde 2010 com análise de dados, ferramentas, metodologias ágeis e científica na solução objetiva de problemas.</h3>
+						<h3>Como autodidata e linguista, observo relações entre diferentes áreas e admiro mentes livres, curiosas e criativas.</h3>
+						<h3>Prezo pela diversidade, equidade, sustentabilidade e pela capacitação profissional, respeitando a ética e a essência humana que nada mais é que a capacidade de aprender e evoluir.</h3>
+					</div>
+					<div class="bar">
+					<button class="btn" id="btndata">Análise de Dados</button>
+					<button class="btn" id="btnaut">Automações de Softwares</button>
+					<button class="btn" id="btndev">Desenvolvimento Web</button>
+					<button class="btn" id="btnplan">Planejamento</button>
+					<script type="text/javascript" src="{{ url_for('static', filename='js/hometalk.js') }}"></script>
+					</div>
+				</div>
+		</div>
+	</main>
+	<div class="cont">
+		<div class="box2">
+			<section>
+				<h1 class="glow">SOFT SKILLS</h1>
+					<h3>Sem dúvidas, falar sobre nós mesmos em poucas linhas é um desafio. Rotular pessoas é limitador.</br>Acredito em ações, não em palavras e por este motivo me dedico ao máximo nas atividades que me proponho a fazer, o que me leva a estudar a fundo diferentes assuntos e ferramentas.</h3>
+					<h3>Autodidata, aprendo ativamente e frequentemente me encontro em meio à equipes interdisciplinares, planejando, solucionando problemas, direcionando pessoas e lapidando potenciais. As vezes isto pode ser intimidador, mas ajudou a desenvolver meu autoconhecimento, fez parte da contrução da minha personalidade e dos meus valores. Valorizo minha história. Anseio por feedbacks, pois quero sempre melhorar, e aprendi a dizer não quando necessário. Equilírio é tudo.</h3>
+			</section>
+		</div>
+		<section class="cesta">
+			<h2 class="tittle">TERMÔMETRO DE FERRAMENTAS FULLSTACK</h2>
+			<div class="caps">
+				<div class="deck">
+					<div class="card">
+						<div class="front">AUTOMAÇÕES</div>
+						<div class="back">
+							<div id="skills">
+								<progress value="5" max="10"></progress><span>JavaScript</span>
+								<progress value="8" max="10"></progress><span>Python</span>
+								<progress value="2" max="10"></progress><span>C++</span>
+							</div>
+						</div>
+					</div>
+				<h4>Aprender Python foi um <br>divisor de águas e abriu <br>muitas portas. JS apareceu e <br>não quis mais ir embora rs.</h4>
+				</div>
+				<div class="deck">
+					<div class="card">
+						<div class="front">DADOS</div>
+						<div class="back">
+							<div id="skills">
+								<progress value="8" max="10"></progress><span>Pandas</span>
+								<progress value="7" max="10"></progress><span>APIs/json</span>
+								<progress value="3" max="10"></progress><span>DB</span>
+							</div>
+						</div>
+					</div>
+					<h4>Para levar projetos para <br>produção, estou aprofundando <br>meus conhecimentos em SQL<br>e hardening de servidores.</h4>
+				</div>
+				<div class="deck">
+					<div class="card">
+						<div class="front">WEB DEV</div>
+						<div class="back">
+							<div id="skills">
+								<progress value="8" max="10"></progress><span>Flask</span>
+								<progress value="5" max="10"></progress><span>Frontend</span>
+								<progress value="2" max="10"></progress><span>Cloud</span>
+							</div>
+						</div>
+					</div>
+					<h4>Recentemente estudei tópicos <br>de HTML/CSS3, por ser <br>necessário para desenvolver<br> em nuvem e Docker.</h4>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="box3">
+		<div class="menu">
+			<h2 class="tittle">AUTOMAÇÕES</h2>
+			<button class="b" id="clock"><div id="maker2"></div>Por acessibilidade<div id="maker"></div></button>
+			<button class="b" id="gas"><div id="maker2"></div>Atualizando ao vivo<div id="maker"></div></button>
+			<button class="b" id="shm"><div id="maker2"></div>RPA<div id="maker"></div></button>
+			<h2 class="tittle">ANÁLISES</h2>
+			<button class="b" id="geo"><div id="maker2"></div>Geoprocessamento<div id="maker"></div></button>
+			<button class="b" id="fat"><div id="maker2"></div>Case Faturamento<div id="maker"></div></button>
+			<button class="b" id="cm"><div id="maker2"></div>Chuva de Meteoros<div id="maker"></div></button>
+			<button class="b" id="api"><div id="maker2"></div>APIs<div id="maker"></div></button>
+			<h2 class="tittle">WEB DEV</h2>
+			<button class="b" id="ex"><div id="maker2"></div>Extrator<div id="maker"></div></button>
+			<button class="b" id="food"><div id="maker2"></div>Corn Food<div id="maker"></div></button>
+			<button class="b" id="cert"><div id="maker2"></div>Extrair dados de PDF<div id="maker"></div></button>
+			<button class="b" id="eng"><div id="maker2"></div>Search Engine<div id="maker"></div></button>
+			<h2 class="tittle">SOCIAIS</h2>
+			<button class="b" id="eng"><div id="maker2"></div>
+				<ul class="social">	
+					<a href="https://codepen.io/anamoraes" target="_blank"><li><i class="fab fa-codepen"></i></li></a>
+					<a href="https://www.linkedin.com/in/ana-moraes-07987a249/" target="_blank"><li><i class="fab fa-linkedin-in"></i></li></a>
+					<a href="https://github.com/projetoslkdn/" target="_blank"><li><i class="fab fa-github"></i></li></a>
+				</ul>
+			<div id="maker"></div></button>
+		</div>
+		<div class="box4">
+			<div id="content2">
+				<h1>PROJETOS</h1>
+				<h3>Em 2020 iniciei meus estudos em Pyhton e em 2021, como uma atitude de 'basta', como um grito saindo do peito contra uma realidade determinista, passei a me dedicar 100% a programação.</h3>
+				<h3>Desde então, tenho feito freelancers e me dividido entre estudar, programar e fazer o comercial, o que diminui minha velocidade.</h3>
+				<h3>Tenho claros os meus objetivos e assim como não desmereço a luta de outros, não aceito menos do que respeito e fair play nas parcerias que realizo.</h3>
+			</div>
+		</div>
+		<script type="text/javascript" src="{{ url_for('static', filename='js/projetos.js') }}"></script>
+	</div>
+	</div>
+	<div class="cert">
+		<div class="box6">
+			<h1 class="glow" id="cr">CURSOS RECENTES</h1>
+			<div class="h">
+				<div class="one">
+					<div class="no-bkg">
+						<h2 class="glow3">Introduction to IoT</h2>
+						<h3 class="inside">Laboratório no Packet Tracer: Implantação e cabeamento de dispositivos mobile e sensores, mapeamento e criação de redes, adicionar dispositivos de IoT a uma casa smart, Conectar e monitorar dispositivos de IoT, Pesquisa de rede baseada em intenção (IBN), Configuração de Segurança Sem Fio.
+						Tópicos abordados: Tipos de Rede, Acesso e monitoramento de uma rede de IoT, BigData e Processamento distribuído, Automatizações e ML com IoT, Configuração de uma VPN em smartphones. (CISCO)</h3>
+					</div>
+					<div class="no-bkg">
+						<h2 class="glow3">Linux Fundamentos</h2>
+						<h3 class="inside">Tópicos abordados: Comandos essenciais, gerenciamento de usuários, manipulação de arquivos e pastas, raiz de diretórios, configuração de rede, administração de sistema e editor de texto,gerenciamento de processos, acesso a máquinas remotas com SSH, VI, gerenciamento de volumes, agendamento de tarefas, política de firewall. (FIAP)</h3>
+					</div>	
+				</div>
+				<div class="two" class="no-bkg">
+					<div class="no-bkg">
+						<h2 class="glow3">Cybersecurity Essentials</h2>
+						<h3 class="inside">Tópicos estudados: Cubo da segurança cibernética (CIA, estados das informações e contramedidas), importância da cultura de conscientização de segurança cibernética; políticas, diretrizes, padrões e controles de segurança, tipos de ataques e malwares, táticas de engenharia social, criptografia assimétrica, controles de acesso, técnicas de mascaramento de dados, implementação de salting, comparação de algoritmos de assinatura digital, medidas para melhorar a disponibilidade, detecção e análise, contenção, erradicação e recuperação, NetFlow e IPFIX, Firewalls baseados em host e sistemas de detecção de invasão, controle de ameaças à nuvem privada, scanners de vulnerabilidades, pentest e packet analyzers.
+						Laboratórios no Packet Tracer: Configurar servidores FTP, Web, de E-mail, DNS, NTP e AAA, acessar remotamente um roteador empresarial usando Telnet e usando SSH, Exploração da autenticação, autorização e accounting, como usar as verificações de integridade de arquivos e de dados (via hash e HMAC), Detecção de ameaças e vulnerabilidades, eliminação de vulnerabilidades de um host, CHardening de dispositivos móveis e sem fio: Configurar o WEP para o Healthcare at Home, WPA2 PSK para o Gotham Healthcare Branch, WPA2 RADIUS para o Metropolis Bank HQ, Blindagem da configuração do IOS, Ativação do recurso de Configuração resiliente do Cisco IOS, auditoria de segurança para codificar um sistema Linux. (NIC.br/CISCO)</h3>
+					</div>
+					<div class="no-bkg">
+						<h2 class="glow3">Gestão de Infraestrutura de TI</h2>
+						<h3 class="inside">Tópicos abordados: História e tipos de sistemas operacionais, distribuições Windows Server e Linux, Componentes e níveis dos sistemas de informação(Operacional, Tático, Estratégico), ERPs, CRMs e fornecedores, banco de dados (componentes, caracterização, classes de usuários, arquitetura e independência de dados, gerenciamento, armazenamento e RAID), bancos não relacionais e NoSQL, escalabilidade e Big Data. (FIAP)</h3>
+					</div>
+					<div class="no-bkg">
+						<h2 class="glow3">Big Data & Analytics</h2>
+						<h3 class="inside">Tópicos abordados: Big Data e IoT, ANALYTICS: Tipos de Análises, Business Intelligence, Business Analytics, Data Mining, Análise de textos e sentimentos. Laboratórios: Machine Learning, linguagem R, TABLEAU, Spark, MongoDB.(FIAP)</h3>
+					</div>
+					<div class="no-bkg">
+						<h2 class="glow3">Windows Server + Hardening</h2>
+						<h3 class="inside">Conhecimentos e habilidades para Instalação e Configuração do Windows Server, Instalação e Configuração inicial dos serviços de DHCP, DNS, FTP, IIS e Active Directory, e o Hardening do Sistema Operacional Windows Server com base nas boas práticas indicadas no CIS Benchmarks. (CECyber)</h3>
+					</div>
+				</div>
+			</div>
+			<div class="three">
+				<div class="h">
+					<div class="no-bkg">
+						<h2 class="glow3">Cybersecurity</h2>
+						<h3 class="inside">Tópicos abordados: Riscos, vulnerabilidades e ameaças à Segurança da Informação e à continuidade de negócio,TCP/IP: principais características, funcionamento e vulnerabilidade, características e vulnerabilidades dos serviços, análise de pacotes e ataques em redes TCP/IP , tópicos de engenharia social, fortificando os hosts da lan, criptografia: fundamentos e aplicações, ferramentas e frameworks para testes de intrusão. (FIAP)</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="box5">
+		<h1 class="glow" id="final">Let's talk</h1>
+		<form class="wrapper" id="text" action="https://formsubmit.co/el/hulope" method="POST"> 
+			<div class="rar">
+				<div class="campo">
+					<h3 class="form">ENTRE EM CONTATO</h3>
+					<input type="text" name="nome" id="nome" placeholder="Seu nome" required="required">
+					<input type="text" name="empresa" id="empresa" placeholder="Empresa onde trabalha" required="required">
+					<input type="email" name="email" id="email" placeholder="E-mail para resposta" required="required">
+					<textarea style="background-color: none"; id="experiencia" name="experiencia" placeholder="Conte um pouco mais..." required="required"></textarea>
+					<div class="send">
+						<button class="b" type="submit" submit="">ENVIAR</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	{% endblock conteudo %}
